@@ -54,7 +54,7 @@ I. Ideas to design my simple MMR system:
   - Level 5: 751 - 775
   - Level 6: 776 - 788
   - Level 7: 789 - 800
-    (Note: there should be better distribution to split the score range into different levels. This one just roughly micmic the 80/20 law.
+    (Note: there should be better distribution to split the score range into different levels. This one just roughly mimics the 80/20 law.
 
 - The simplest rule to rank a player is to increase skill score by 1 for every game he wins and decrease by 1 for his lost game. Everybody starts with score = 0.
 
