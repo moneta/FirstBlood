@@ -114,11 +114,12 @@ II. General Architecture
   2. Call scoring service with this 500-user list to get all the scores. 
 
   3. Run the matchmaking algorithm to generate and return the player-matched list. Here is one example
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  |   Player-matched short list
-  |   i.  Same skill level players: maximum 50 players  with the same skill level with the current player.
-  |   ii. Higher ranking players: maximum 10 users for each higher level.
-  ----------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------
+Player-matched short list
+   - Same skill level players: maximum 50 players  with the same skill level with the current player.
+   - Higher ranking players: maximum 10 users for each higher level.
+------------------------
 
   If the current player is not happy with the matched list, he can request for a re-match. The same algorithm is now run with increasing rematch count and produce another result.
 
